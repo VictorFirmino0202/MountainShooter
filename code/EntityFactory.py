@@ -4,7 +4,8 @@ import random
 
 from code.Background import Background
 from code.Const import WIN_WIDTH, WIN_HEIGHT
-from code.Enemy import Enemy, Enemy3
+from code.Enemy import Enemy
+from code.Enemy import Enemy3
 from code.Player import Player
 
 

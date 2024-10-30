@@ -35,6 +35,8 @@ ENTITY_SPEED = {
     'Enemy1Shot': 5,
     'Enemy2': 1,
     'Enemy2Shot': 2,
+    'Enemy3': 2,
+    'Enemy3Shot': 4
 }
 
 ENTITY_HEALTH = {
@@ -63,6 +65,8 @@ ENTITY_HEALTH = {
     'Enemy2': 60,
     'Enemy2Shot': 1,
     'Enemy3': 80,  # Vida do Enemy3,
+    'Enemy3Shot': 1,
+
 }
 
 ENTITY_DAMAGE = {
@@ -91,6 +95,8 @@ ENTITY_DAMAGE = {
     'Enemy2': 1,
     'Enemy2Shot': 15,
     'Enemy3': 15,  # Dano do Enemy3,
+    'Enemy3Shot': 15,
+
 }
 
 ENTITY_SCORE = {
@@ -119,6 +125,8 @@ ENTITY_SCORE = {
     'Enemy2': 125,
     'Enemy2Shot': 0,
     'Enemy3': 200,  # Pontuação ao derrotar o Enemy3,
+    'Enemy3Shot': 0,
+
 }
 
 ENTITY_SHOT_DELAY = {
@@ -126,7 +134,7 @@ ENTITY_SHOT_DELAY = {
     'Player2': 15,
     'Enemy1': 100,
     'Enemy2': 200,
-    'Enemy3': 100,  # Atraso do tiro do Enemy3,
+    'Enemy3': 400,  # Atraso do tiro do Enemy3,
 }
 
 # M

@@ -9,6 +9,7 @@ from pygame.font import Font
 
 from code.Const import C_WHITE, WIN_HEIGHT, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_GREEN, C_CYAN, EVENT_TIMEOUT, \
     TIMEOUT_STEP, TIMEOUT_LEVEL
+from code.Enemy import Enemy3
 from code.Enemy import Enemy
 from code.Entity import Entity
 from code.EntityFactory import EntityFactory
@@ -58,7 +59,7 @@ class Level:
             for ent in self.entity_list:
                 self.window.blit(source=ent.surf, dest=ent.rect)
                 ent.move()
-                if isinstance(ent, (Player, Enemy)):
+                if isinstance(ent, (Player, Enemy, Enemy3)):
                     shoot = ent.shoot()
                     if shoot is not None:
                         self.entity_list.append(shoot)
